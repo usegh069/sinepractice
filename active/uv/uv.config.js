@@ -16,12 +16,12 @@
 //  ⠀⠀⠀⠀⠀⠀⠐⢫⠏⢸⠁⠀⠈⢳⠘⢧⣙⢦⠀⠀⠀
 
 self.__uv$config = {
-  prefix: "/active/uv/service/",
+  prefix: "/sinepractice/active/uv/service/",
   encodeUrl: Ultraviolet.codec.xor.encode,
   decodeUrl: Ultraviolet.codec.xor.decode,
-  handler: "/active/uv/uv.handler.js",
-  client: "/active/uv/uv.client.js",
-  bundle: "/active/uv/uv.bundle.js",
-  config: "/active/uv/uv.config.js",
-  sw: "/active/uv/uv.sw.js",
+  handler: "/sinepractice/active/uv/uv.handler.js",
+  client: "/sinepractice/active/uv/uv.client.js",
+  bundle: "/sinepractice/active/uv/uv.bundle.js",
+  config: "/sinepractice/active/uv/uv.config.js",
+  sw: "/sinepractice/active/uv/uv.sw.js",
 };
